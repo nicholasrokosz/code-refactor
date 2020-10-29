@@ -1,3 +1,4 @@
+/* global page styling */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,11 +17,11 @@ header {
   color: #ffffff;
 }
 
-h1 {
+h1 {  
   display: inline-block;
   font-size: 48px;
 }
-
+/* adds contrast to 'seo' in company name */
 .seo {
   color: #d9dcd6;
 }
@@ -47,7 +48,7 @@ a {
 p {
   font-size: 16px;
 }
-
+/* formats hero image at top of page */
 .hero {
   height: 800px;
   width: 100%;
@@ -66,13 +67,31 @@ p {
   float: right;
   margin-left: 25px;
 }
-
+/* formats main page content */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+.content-cards {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.content-cards img {
+  max-height: 200px;
+}
+
+.content-cards h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/* formats aside */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -100,24 +119,6 @@ p {
   display: block;
   margin: 10px auto;
   max-width: 150px;
-}
-
-.content-cards {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.content-cards img {
-  max-height: 200px;
-}
-
-.content-cards h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
 }
 
 footer {
