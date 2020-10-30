@@ -12,4 +12,4 @@ What I did to make this site more accessible:
 - Fixed all broken page links
 - Added `alt` attributes to all `image` tags
 
-Please check out the final result [here](https://nicholasrokosz.github.io/code-refactor).
+Please check out the final result [here](https://nicholasrokosz.github.io/code-refactor/).
