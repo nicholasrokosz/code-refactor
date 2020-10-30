@@ -10,6 +10,6 @@ What I did to make this site more accessible:
 - Ordered the HTML elements in a logical, easy-to-follow manner
 - Removed redundant css classes and ordered the style.css sheet to follow the HTML structure
 - Fixed all broken page links
-- Added `alt` attributes to all `img` tags
+- Added `alt` attributes to all `<img>` tags
 
 Please check out the final result [here](https://nicholasrokosz.github.io/code-refactor/).
